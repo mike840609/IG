@@ -39,7 +39,7 @@ class PostImageViewController: UIViewController ,UINavigationControllerDelegate,
         UIApplication.sharedApplication().beginIgnoringInteractionEvents()
         
         
-        var post = PFObject(className: "Post")
+        let post = PFObject(className: "Post")
         post["message"] = message.text
         post["userId"] = PFUser.currentUser()!.objectId
         
