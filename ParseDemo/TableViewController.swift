@@ -104,7 +104,6 @@ class TableViewController: UITableViewController {
                 
             })
             
-            
         }
         
     }
@@ -158,8 +157,6 @@ class TableViewController: UITableViewController {
                     }
                 }
             }
-            
-            
             
         })
         
