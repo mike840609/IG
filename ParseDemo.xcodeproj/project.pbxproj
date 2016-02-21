@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4D4DDB3B1C78C290008998EF /* PostImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DDB3A1C78C290008998EF /* PostImageViewController.swift */; };
 		4D55B0D81C6F2CE300CC8DDD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D55B0D71C6F2CE300CC8DDD /* Podfile */; };
+		4D7B83C51C796F8900B62B38 /* FeedCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B83C41C796F8900B62B38 /* FeedCellTableViewCell.swift */; };
+		4D7B83C71C79707E00B62B38 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B83C61C79707E00B62B38 /* FeedTableViewController.swift */; };
 		4DF0691B1C78887600F45B9C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0691A1C78887600F45B9C /* TableViewController.swift */; };
 		8861E3BB7A621E027509F7D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2545432A62EFE1C8042BB1A3 /* libPods.a */; };
 		E023470F1B677CD3004F2DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E023470E1B677CD3004F2DBE /* AppDelegate.swift */; };
@@ -36,6 +38,8 @@
 		2545432A62EFE1C8042BB1A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4DDB3A1C78C290008998EF /* PostImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageViewController.swift; sourceTree = "<group>"; };
 		4D55B0D71C6F2CE300CC8DDD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D7B83C41C796F8900B62B38 /* FeedCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCellTableViewCell.swift; sourceTree = "<group>"; };
+		4D7B83C61C79707E00B62B38 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		4D8BCB5E1C6F2E4600D4D984 /* ParseDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		4DF0691A1C78887600F45B9C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		651AC587DF5CBA620CF1A213 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				E02347571B6BE242004F2DBE /* ResetPasswordViewController.swift */,
 				4DF0691A1C78887600F45B9C /* TableViewController.swift */,
 				4D4DDB3A1C78C290008998EF /* PostImageViewController.swift */,
+				4D7B83C61C79707E00B62B38 /* FeedTableViewController.swift */,
+				4D7B83C41C796F8900B62B38 /* FeedCellTableViewCell.swift */,
 				E02347151B677CD3004F2DBE /* Images.xcassets */,
 				E02347171B677CD3004F2DBE /* LaunchScreen.xib */,
 				E023470C1B677CD3004F2DBE /* Supporting Files */,
@@ -314,7 +320,9 @@
 				4DF0691B1C78887600F45B9C /* TableViewController.swift in Sources */,
 				E02347581B6BE242004F2DBE /* ResetPasswordViewController.swift in Sources */,
 				E02347541B6A50F6004F2DBE /* SignUpViewController.swift in Sources */,
+				4D7B83C71C79707E00B62B38 /* FeedTableViewController.swift in Sources */,
 				E023470F1B677CD3004F2DBE /* AppDelegate.swift in Sources */,
+				4D7B83C51C796F8900B62B38 /* FeedCellTableViewCell.swift in Sources */,
 				4D4DDB3B1C78C290008998EF /* PostImageViewController.swift in Sources */,
 				E023475E1B6BE32A004F2DBE /* HomeViewController.swift in Sources */,
 			);

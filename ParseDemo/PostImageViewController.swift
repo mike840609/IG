@@ -94,4 +94,7 @@ class PostImageViewController: UIViewController ,UINavigationControllerDelegate,
     
     }
     
+    
+    @IBAction func logOut(sender: AnyObject){
+    }
 }
