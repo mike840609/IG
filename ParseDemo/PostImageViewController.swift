@@ -16,6 +16,8 @@ class PostImageViewController: UIViewController ,UINavigationControllerDelegate,
     
     @IBOutlet weak var message: UITextField!
     
+    
+    
     @IBAction func chooseImage(sender: AnyObject) {
         
         let image = UIImagePickerController()
@@ -94,6 +96,10 @@ class PostImageViewController: UIViewController ,UINavigationControllerDelegate,
     
     }
     
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        message.resignFirstResponder()
+        
+    }
     
     @IBAction func logOut(sender: AnyObject){
     }
