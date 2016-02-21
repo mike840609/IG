@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
         if PFUser.currentUser() != nil{
             
             // 登入成功使用 login Segue 轉跳 拿掉後就不會存取要每次重新登入
-            //self.performSegueWithIdentifier("login", sender: self)
+            self.performSegueWithIdentifier("login", sender: self)
             
         
         }
@@ -76,7 +76,7 @@ class LoginViewController: UIViewController {
                     
                     
                     // 登入成功使用 login Segue 轉跳 若要每次登入則把下方拿掉註解取代 並把viewdidappear方法刪除 
-                    self.performSegueWithIdentifier("login", sender: self)
+                    //self.performSegueWithIdentifier("login", sender: self)
                     
                 }else{
                     
