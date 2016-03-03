@@ -77,7 +77,7 @@ class PostImageViewController: UIViewController ,UINavigationControllerDelegate,
         // Dispose of any resources that can be recreated.
     }
     
-    
+    // 選取完照片後呼叫
     func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
         self.dismissViewControllerAnimated(true, completion: nil)
         imageToPost.image = image
